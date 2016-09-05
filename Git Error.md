@@ -16,12 +16,16 @@ again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
 解决方案：push前先将远程repository修改pull下来
+
 a.  `git pull origin master`
+
 b. ` git push -u origin master`
 
 - fatal: remote origin already exists
 解决方案：
+
 a.` git remote rm origin`
+
 b.` git remote add origingit@github.com:Githubusername/Github仓库名` 
 
 
