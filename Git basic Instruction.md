@@ -123,10 +123,13 @@ c.撤销版本库的修改
 ###删除文件
 a.删除工作区文件
 ` rm filename`
+
 b.删除版本库文件
 ` git rm filename`
+
 c.删错工作区文件想要还原：
 ` git checkout -- filename`
+
 d.删除Github上面的文件
 ` git commit -a -m "A file was deleted"`
 ` git push origin master`
